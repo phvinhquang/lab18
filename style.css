@@ -1,0 +1,32 @@
+.bg-img1 {
+  height: 80vh;
+  background-size: cover;
+  background-image: url(./background-img-1.webp);
+}
+
+.bg-img2 {
+  height: 80vh;
+  background-size: cover;
+  background-image: url(./background-img-2.avif);
+}
+
+.bg-img3 {
+  height: 80vh;
+  background-size: cover;
+  background-image: url(./background-img-3.avif);
+}
+
+.mt-xxl {
+  margin-top: 10rem;
+}
+
+.bp::before {
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 35%;
+  left: -3%;
+}
